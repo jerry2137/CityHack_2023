@@ -27,7 +27,10 @@ Python implementation is on version 3.7.10.
 2. Save it in the right path:
     Put the datasets into ./kaggle/input/heartbeat
 3. Train:
-    Run the file *ECG.ipynb* block by block. 
+    Run the file *ECG.ipynb* block by block.
+    The training data should contain 10k+ data like this:
+    ![alt text](https://github.com/jerry2137/CityHack_2023/blob/main/ECG_heartbeat.png?raw=true)
+    The wave in the plot represent the milivolt of the ECG.
     In *ECG2.ipynb*, we use the same algorithm, but different dataset.
     Thank to the powerful XGBoost library, the training time is reduced to less them five minutes.
 4. Evaluate:
