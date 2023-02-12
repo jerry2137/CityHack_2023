@@ -33,4 +33,4 @@ Python implementation is on version 3.7.10.
     The Accuracy and Confusion matrix is shown in the end of the notebook. 
 ### Result
 The training result in ECG.ipynb (using [MIT-BIH Arrhythmia Database](https://www.physionet.org/content/mitdb/1.0.0/)) is almost perfect. the accuracy of it is hihgher than 99.9% (for both training set and testing set).
-The result is too good that we thouhgt it might over-fit to this dataset. As a result, we try the same algorithm on another dataset ([PTB Diagnostic ECG Database](https://www.physionet.org/content/ptbdb/1.0.0/)). And it turned out to be less accurate than the previous one but still beyond enough.
+The result is too good that we thouhgt it might over-fit to this dataset. As a result, we try the same algorithm on another dataset ([PTB Diagnostic ECG Database](https://www.physionet.org/content/ptbdb/1.0.0/)). Probably because of the dataset is insufficient (only around 10,000 rows), the result turned out to be less accurate (97.9) than the previous one but still beyond enough.
