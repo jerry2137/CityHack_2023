@@ -38,8 +38,10 @@ Python implementation is on version 3.7.10.
 ### Result
 The training result in ECG.ipynb (using [MIT-BIH Arrhythmia Database](https://www.physionet.org/content/mitdb/1.0.0/)) is almost perfect.
 The accuracy of it is hihgher than 99.9% (for both training set and testing set).
+
 ![alt text](https://github.com/jerry2137/CityHack_2023/blob/main/ECG_result.png?raw=true)
 The result is too good that we thouhgt it might over-fit to this dataset.
 As a result, we try the same algorithm on another dataset ([PTB Diagnostic ECG Database](https://www.physionet.org/content/ptbdb/1.0.0/)).
 Probably because of the dataset is insufficient (only around 10,000 rows), the result turned out to be less accurate (97.9) than the previous one but still beyond enough.
+
 ![alt text](https://github.com/jerry2137/CityHack_2023/blob/main/ECG_result.png?raw=true)
