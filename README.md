@@ -31,3 +31,15 @@ Python implementation is on version 3.7.10.
 
 4. Evaluate:
     The Accuracy and Confusion matrix is shown in the end of the notebook. 
+    
+## Hardware Flow
+
+1. Every wristband capture data and sends them to its corresponding halfway node via LoRaWAN
+2. The halfway node pends all collected data and sends them to the central terminal at a hospital via LoRaWAN or cables (if available)
+3. The central terminal executes the AI model to evaluate the cases
+4. If no abnormal case is detected, process continues. If an abnormal case is detected, an interrupt is triggered to execute the following two steps
+5. An simple alert signal (pulse) will be sent via back to the halfway node to inform all the nearby wristband using vibration or buzzar
+6. A medical profession at hospital will access the raw data for the abnormal case for diagnosis, and then advice proper measures using voice or texts, which will be displayed on the halfway node
+
+The overall task flow is suggested as the following flowchart.
+
