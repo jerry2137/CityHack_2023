@@ -8,7 +8,7 @@
 6. A medical profession at hospital will access the raw data for the abnormal case for diagnosis, and then advice proper measures using voice or texts, which will be displayed on the halfway node
 The overall task flow is suggested as the following flowchart.
 ## Software Flow
-The code extracted the features in  the dataset provided by [MIT-BIH Arrhythmia Database](https://www.physionet.org/content/mitdb/1.0.0/), applied some data transformation, and predicted the potential risks base on the wave of the  heartbeats.
+The code extracted the features in  the dataset provided by [MIT-BIH Arrhythmia Database](https://www.physionet.org/content/mitdb/1.0.0/) and [PTB Diagnostic ECG Database](https://www.physionet.org/content/ptbdb/1.0.0/), applied some data transformation, and predicted the potential risks base on the wave of the  heartbeats.
 ### Requirements
 Python implementation is on version 3.7.10. 
 #### [Python](python)
@@ -32,4 +32,5 @@ Python implementation is on version 3.7.10.
 4. Evaluate:
     The Accuracy and Confusion matrix is shown in the end of the notebook. 
 ### Result
-
+The training result in ECG.ipynb (using [MIT-BIH Arrhythmia Database](https://www.physionet.org/content/mitdb/1.0.0/)) is almost perfect. the accuracy of it is hihgher than 99.9% (for both training set and testing set).
+The result is too good that we thouhgt it might over-fit to this dataset. As a result, we try the same algorithm on another dataset ([PTB Diagnostic ECG Database](https://www.physionet.org/content/ptbdb/1.0.0/)). And it turned out to be less accurate than the previous one but still beyond enough.
