@@ -30,7 +30,11 @@ Python implementation is on version 3.7.10.
     Put the datasets into ./kaggle/input/heartbeat
 3. Train:
     Run the file *ECG.ipynb* block by block.
-    The training data should contain 10k+ data like this:
+    The training data should contain 10k+ data like this (flatten to a spectrum-like plot):
+    
+    ![alt text](https://github.com/jerry2137/CityHack_2023/blob/main/ECG_train_flatten.png?raw=true)
+    
+    One single row of it should be like this:
     
     ![alt text](https://github.com/jerry2137/CityHack_2023/blob/main/ECG_heartbeat.png?raw=true)
     
