@@ -7,6 +7,7 @@
 5. An simple alert signal (pulse) will be sent via back to the halfway node to inform all the nearby wristband using vibration or buzzar
 6. A medical profession at hospital will access the raw data for the abnormal case for diagnosis, and then advice proper measures using voice or texts, which will be displayed on the halfway node
 The overall task flow is suggested as the following flowchart.
+![alt text](https://github.com/jerry2137/CityHack_2023/blob/main/2023-02-12_112904.png?raw=true)
 ## Software Flow
 The code extracted the features in  the dataset provided by [MIT-BIH Arrhythmia Database](https://www.physionet.org/content/mitdb/1.0.0/) and [PTB Diagnostic ECG Database](https://www.physionet.org/content/ptbdb/1.0.0/), applied some data transformation, and predicted the potential risks base on the wave of the  heartbeats.
 ### Requirements
