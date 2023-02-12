@@ -1,4 +1,4 @@
-# ECG Classification using XGBoost
+# Heath Monitoring Wristband for ECG Classification using XGBoost
 ## Hardware Flow
 1. Every wristband capture data and sends them to its corresponding halfway node via LoRaWAN
 2. The halfway node pends all collected data and sends them to the central terminal at a hospital via LoRaWAN or cables (if available)
