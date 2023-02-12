@@ -25,4 +25,4 @@ Python implementation is on version 3.7.10.
 
 4. Evaluate:
     The Accuracy and Confusion matrix is shown in the end of the notebook. 
-## Run the code
+## Result
