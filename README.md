@@ -42,7 +42,7 @@ Python implementation is on version 3.7.10.
     In *ECG2.ipynb*, we use the same algorithm, but different dataset.
     Thank to the powerful XGBoost library, the training time is reduced to less them five minutes.
 4. Evaluate:
-    The Accuracy and Confusion matrix is shown in the end of the notebook. 
+    The Accuracy and Confusion matrix is shown in the end of the notebook.
 ### Result
 The training result in ECG.ipynb (using [MIT-BIH Arrhythmia Database](https://www.physionet.org/content/mitdb/1.0.0/)) is almost perfect.
 The accuracy of it is hihgher than 99.9% (for both training set and testing set).
@@ -54,3 +54,12 @@ As a result, we try the same algorithm on another dataset ([PTB Diagnostic ECG D
 Probably because of the dataset is insufficient (only around 10,000 rows), the result turned out to be less accurate (97.9) than the previous one but still beyond enough.
 
 ![alt text](https://github.com/jerry2137/CityHack_2023/blob/main/ECG_result.png?raw=true)
+
+### References
+#### Datasets
+[MIT-BIH Arrhythmia Database](https://www.physionet.org/content/mitdb/1.0.0/)
+[PTB Diagnostic ECG Database](https://www.physionet.org/content/ptbdb/1.0.0/)
+#### Code
+[ECG Heartbeat Categorization 8431d523-6](https://www.kaggle.com/code/twtylerwilson/starter-ecg-heartbeat-categorization-8431d523-6)
+[mitbih data machine learning with accuracy 99.6%](https://www.kaggle.com/code/fadyesam/mitbih-data-machine-learning-with-accuracy-99-6)
+[MIT-BIH Database 0f550ff8-7](https://www.kaggle.com/code/nickziwang/starter-mit-bih-database-0f550ff8-7)
