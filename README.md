@@ -11,8 +11,8 @@ Python implementation is on version 3.7.10.
 - [Scikit learn](http://scikit-learn.org/stable/install.html)
 - [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
 - [XGBoost](https://xgboost.readthedocs.io/en/stable/install.html)
-- [keras](https://pypi.org/project/keras/)
-- [itertools](https://pypi.org/project/more-itertools/)
+- [keras](https://pypi.org/project/keras/) (Optional)
+- [itertools](https://pypi.org/project/more-itertools/) (Optional)
 - [Matplotlib](https://matplotlib.org/) (Optional)
 
 ## Run the code
