@@ -18,6 +18,7 @@ Python implementation is on version 3.7.10.
 ## Run the code
  
 1. Download the dataset:
+    The dataset is too large to be uploaded to GitHub, thus, users will need to 
     The raw signals files (.csv) and annotations files can be downloaded from [kaggle.com](https://www.kaggle.com/datasets/shayanfazeli/heartbeat)
     
 2. Save it in the right path:
